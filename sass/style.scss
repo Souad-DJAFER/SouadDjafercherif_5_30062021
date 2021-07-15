@@ -1,5 +1,12 @@
 body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    font-family: roboto, sans-serif; 
     background-color: #f3e9f1;
+    * {
+        box-sizing:border-box;
+    }
 }
 
 ul{
@@ -13,6 +20,29 @@ li a{
 }
 
 header{
-    width: 100%;
-    header__space
+    width: auto;
+    height: 60px;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    #header__space{
+        width: 70%;
+    }
+    .header__nav{
+        width: 30%;
+        .header__ul{
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .header__li{
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+img {
+    width: 800px;
+    height: 600px;
 }
