@@ -19,32 +19,85 @@ li a {
   color: black;
 }
 
-header {
+.container {
   width: auto;
   height: 60px;
   display: flex;
   flex: 1 1;
   flex-direction: row;
 }
-header #header__space {
-  width: 70%;
+.container #container__space {
+  width: 60%;
 }
-header .header__nav {
-  width: 30%;
+.container .container__nav {
+  width: 40%;
 }
-header .header__nav .header__ul {
+.container .container__nav .container__ul {
   width: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-header .header__nav .header__ul .header__li {
-  font-size: 1em;
+.container .container__nav .container__ul .container__li {
+  font-size: 1.2em;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 180px;
+}
+.header .header__logo {
+  width: 180px;
+  height: 180px;
+}
+.header #formulaire {
+  height: 100px;
+}
+.header #formulaire form {
+  border: none;
 }
 
 img {
-  width: 800px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
 }
+
+/*SECTION 1*/
+/*SECTION 2*/
+.section2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+}
+.section2 .section2__article {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.section2 .section2__article .section2__img {
+  width: auto;
+  height: 300px;
+}
+.section2 .section2__article .section2__description {
+  font-size: 20px;
+}
+
+/*SECTION 3*/
+.section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section3 i {
+  font-size: 30px;
+  margin: 15px;
+}
+
+/*FOOTER*/
 
 /*# sourceMappingURL=style.css.map */
