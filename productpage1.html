@@ -60,62 +60,25 @@
 
         <!--SECTION 2-->
         <section class="section2">
-                <a href="productpage1.html" class="section2__a">
-                    <article class="section2__article">
-                        <img class="section2__img" src="images/teddy_1.jpg" alt="Ours en peluche marron">
-                        <div class="section2__description">
-                            <h2>Norbert</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>2.900€</p>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="productpage2.html" class="section2__a">
-                    <article class="section2__article">
-                        <img class="section2__img" src="images/teddy_2.jpg" alt="Ours en peluche beige">
-                        <div class="section2__description">
-                            <h2>Arnold</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>3.900€</p>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="productpage3.html" class="section2__a">
-                    <article class="section2__article">
-                        <img class="section2__img" src="images/teddy_3.jpg" alt="Maman ours et bébé ours">
-                        <div class="section2__description">
-                            <h2>Lenny and Carl</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>5.900€</p>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="productpage4.html" class="section2__a">
-                    <article class="section2__article">
-                        <img class="section2__img" src="images/teddy_4.jpg" alt="Ours en Peluche avec tee-shirt I Love You">
-                        <div class="section2__description">
-                            <h2>Gustav</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>4.500€</p>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="productpage5.html" class="section2__a">
-                    <article class="section2__article">
-                        <img class="section2__img" src="images/teddy_5.jpg" alt="Ours en peluche assis de dos">
-                        <div class="section2__description">
-                            <h2>Garfunkel</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>5.500€</p>
-                        </div>
-                    </article>
-                </a>
-
-                <div class="section2__space"></div>
+            <div class="section2__img">
+                <img class="section2__img1" src="images/teddy_1.jpg" alt="Ours en peluche marron">
+            </div>
+            <div class="section2__description">
+                <h1>Norbert</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus. In sem ante, accumsan a dolor ut, pellentesque auctor ex. Fusce imperdiet risus quis dolor pretium pulvinar vel mattis eros. Nam convallis eleifend nisl, et commodo elit ultrices non. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <p>2.900€</p>
+                <div>
+                    <label for="color" class="section2__label">Couleur :</label>
+                    <select name="colors" id="color-select">
+                        <option value="" class="section2__select">--Choississez la couleur--</option>
+                        <option value="Marron" class="section2__select">Marron</option>
+                        <option value="Beige" class="section2__select">Beige</option>
+                        <option value="Vieux Rose" class="section2__select">Vieux Rose</option>
+                        <option value="Bleu Ciel" class="section2__select">Bleu Ciel</option>
+                    </select>
+                </div>
+                <button class="section2__incart" type="button">Ajouter au panier</button>
+            </div>
         </section>
 
         <!--SECTION 3-->
@@ -134,5 +97,4 @@
                 </ul>
             </nav>   
         </footer>
-
     </body>
