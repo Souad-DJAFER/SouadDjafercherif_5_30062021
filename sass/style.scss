@@ -93,14 +93,14 @@ a{
 }
 
 
-/*SECTION 1*/
+/*MENU*/
 
-.section1{
+.menu{
     background-color: #f4f4f4;
     height: 40px;
     margin-bottom: 0px;
     box-shadow: inset 0 2px 5px 0 rgb(0 0 0 / 11%);
-    .section1__liste{
+    .menu__liste{
         height: 40px;
         font-size: 1.1em;
         margin: 0px;
@@ -108,15 +108,15 @@ a{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        .section1__li{
+        .menu__li{
             margin-left: 100px;
         }
     }
 }
 
-/*SECTION 2*/
+/*MAIN*/
 
-.section2{
+.main{
     background-color: #f4f4f4;
     padding-top: 30px;
     box-shadow: inset 0 2px 5px 0 rgb(0 0 0 / 11%);
@@ -125,10 +125,10 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-        .section2__a{
+        .main__a{
             display: block;
             width: 30%;
-            .section2__article{
+            .main__article{
                 display: flex;
                 flex-direction: column;
                 width: 100%;
@@ -136,16 +136,16 @@ a{
                 padding: 10px;
                 background-color: white;
                 box-shadow: 1px 1px 12px rgb(197, 197, 197);
-                    .section2__img{
+                    .main__img{
                         width: auto;
                         height: 250px;
                     }
-                .section2__description{
+                .main__description{
                     font-size: 15px;
                 }
             }
         }
-        .section2__article{
+        .main__article{
             display: flex;
             flex-direction: column;
             width: 30%;
@@ -153,23 +153,23 @@ a{
             padding: 10px;
             background-color: white;
             box-shadow: 1px 1px 12px rgb(197, 197, 197);
-            .section2__img{
+            .main__img{
                 width: 100%;
                 height: 250px;
             }
-            .section2__description{
+            .main__description{
                 font-size: 15px;
             }
         }
-        .section2__space{
+        .main__space{
             width: 30%;
         }
 }
 
 
-/*SECTION 3*/
+/*SOCIAL MEDIA*/
 
-.section3{
+.socialmedia{
     display: flex;
     flex-direction: row;
     justify-content: center;
