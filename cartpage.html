@@ -58,65 +58,70 @@
             </ul>
         </section>
 
-        <!--MAIN-->
-        <section class="main">
-                <a href="productpage1.html" class="main__a">
-                    <article class="main__article">
-                        <img class="main__img" src="images/teddy_1.jpg" alt="Ours en peluche marron">
-                        <div class="main__description">
-                            <h2>Norbert</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>2.900€ TTC</p>
-                        </div>
-                    </article>
-                </a>
+        <!--CART-->
+        <section class="block">
+            <div class="block__titles">
+                <h1>PANIER</h1>
+                <h2>TOTAL</h2>
+            </div>
+            <div class="cart">
+                <div class="cart__recap">
+                    <img class="cart__img" src="images/teddy_1.jpg" alt="Ours en peluche marron">
+                    <div class="cart__product">
+                        <p>NORBERT</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
+                        <P>Couleur : Marron</P>
+                    </div>
+                    <div class="quantitychoice__cart"> 
+                        <p>2.900€ TTC</p>
+                        <label for="quantity" class="product__label">Quantité :</label>
+                        <select name="quantity" id="cart__quantity-select">
+                            <option value="1" class="product__select">1</option>
+                            <option value="2" class="product__select">2</option>
+                            <option value="3" class="product__select">3</option>
+                            <option value="4" class="product__select">4</option>
+                            <option value="5" class="product__select">5</option>
+                        </select>
+                        <i class="fas fa-trash"></i>
+                    </div>
+                </div>    
 
-                <a href="productpage2.html" class="main__a">
-                    <article class="main__article">
-                        <img class="main__img" src="images/teddy_2.jpg" alt="Ours en peluche beige">
-                        <div class="main__description">
-                            <h2>Arnold</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>3.900€ TTC</p>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="productpage3.html" class="main__a">
-                    <article class="main__article">
-                        <img class="main__img" src="images/teddy_3.jpg" alt="Maman ours et bébé ours">
-                        <div class="main__description">
-                            <h2>Lenny and Carl</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>5.900€ TTC</p>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="productpage4.html" class="main__a">
-                    <article class="main__article">
-                        <img class="main__img" src="images/teddy_4.jpg" alt="Ours en Peluche avec tee-shirt I Love You">
-                        <div class="main__description">
-                            <h2>Gustav</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>4.500€ TTC</p>
-                        </div>
-                    </article>
-                </a>
-
-                <a href="productpage5.html" class="main__a">
-                    <article class="main__article">
-                        <img class="main__img" src="images/teddy_5.jpg" alt="Ours en peluche assis de dos">
-                        <div class="main__description">
-                            <h2>Garfunkel</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae nunc non quam feugiat cursus.</p>
-                            <p>5.500€ TTC</p>
-                        </div>
-                    </article>
-                </a>
-
-                <div class="main__space"></div>
+                <div class="cart__total">
+                    <div class="cart__total-lign1">
+                        <p>Article (1)</p>
+                        <p>2.320€ HT</p>
+                    </div>
+                    <div class="cart__total-lign2">
+                        <p>TVA (20%)</p>
+                        <p>  580€</p>
+                    </div>
+                    <div class="cart__total-lign3">
+                        <p>Livraison gratuite</p>
+                    </div>
+                    <div class="cart__total-lign4">
+                        <p>TOTAL</p>
+                        <p>2.900€ TTC</p>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section class="block2">
+            <h3>ADRESSE DE LIVRAISON</h3>
+            <div class="cart__client">
+                <div class="cart__address">
+                    <p class="cart__address-p">Nicolas Dupond</p>
+                    <p class="cart__address-p">4 rue de l'Ange</p>
+                    <p class="cart__address-p">34000 Montpellier</p>
+                    <p class="cart__address-p">FRANCE</p>
+                </div>
+                <button class="cart__incart" type="button">Commander</button>
+            </div>
+            <div>
+            </div>
+
+        </section>
+
 
         <!--SOCIAL MEDIA-->
         <section class="socialmedia">

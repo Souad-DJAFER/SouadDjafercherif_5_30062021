@@ -100,7 +100,7 @@ a{
     height: 40px;
     margin-bottom: 0px;
     box-shadow: inset 0 2px 5px 0 rgb(0 0 0 / 11%);
-    .menu__liste{
+    .menu__list{
         height: 40px;
         font-size: 1.1em;
         margin: 0px;
@@ -137,7 +137,7 @@ a{
                 background-color: white;
                 box-shadow: 1px 1px 12px rgb(197, 197, 197);
                     .main__img{
-                        width: auto;
+                        width: 100%;
                         height: 250px;
                     }
                 .main__description{
@@ -192,3 +192,5 @@ footer{
 }
 
 @import "productpage";
+
+@import "cartpage";
